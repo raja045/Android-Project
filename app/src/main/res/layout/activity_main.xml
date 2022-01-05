@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    android:id="@+id/rll"
+        tools:context=".MainActivity">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NCC Registration Form"
+            android:textSize="14pt"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/black"
+            android:layout_marginBottom="20dp"
+            android:id="@+id/toptxt"
+        ></TextView>
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:id="@+id/picc"
+        android:layout_toRightOf="@+id/entertxt"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="35dp"
+        ></ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name "
+            android:id="@+id/nametxt"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="20dp"
+            android:textSize="8pt"
+            android:textColor="@color/black"
+            android:layout_below="@+id/toptxt"
+             ></TextView>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter Your Name"
+            android:textSize="8pt"
+            android:id="@+id/entertxt"
+            android:layout_toRightOf="@id/nametxt"
+            android:layout_marginTop="50dp"
+             ></EditText>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gender"
+            android:textSize="8pt"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/gen"
+            android:layout_below="@+id/nametxt"></TextView>
+<RadioGroup
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/Rgrp1"
+    android:layout_marginLeft="10dp"
+    android:layout_below="@+id/gen">
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/male"
+        android:text="Male"></RadioButton>
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/female"
+        android:text="Female"></RadioButton>
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Trans"
+        android:text="Transgender"></RadioButton>
+</RadioGroup>
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Upload your Pic here"
+            android:id="@+id/pic"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/Rgrp1"
+            ></Button>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/llayout"
+        android:orientation="horizontal"
+        android:layout_below="@+id/pic"></LinearLayout>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/tick"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="10dp"
+    android:textSize="8pt"
+    android:layout_below="@+id/llayout"
+    android:text="Tick the Language(you should Speak and Write)">
+</TextView>
+         <CheckBox
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:id="@+id/hin"
+             android:layout_below="@id/tick"
+             android:text="Hindi"></CheckBox>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/eng"
+            android:layout_below="@id/hin"
+            android:text="English"></CheckBox>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/eng"
+            android:textSize="8pt"
+            android:text="Select the Wing you want to join"></TextView>
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spin"
+             android:layout_toRightOf="@+id/spinner"
+            android:layout_marginTop="510dp"
+            ></Spinner>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:id="@+id/submit"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="250dp"
+            android:layout_below="@+id/spin"
+            ></Button>
+
+    </RelativeLayout>
+
+
+

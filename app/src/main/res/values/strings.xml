@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">CSE224CA3</string>
+    <string name="Header">NCC Registration Form</string>
+    <string name="name">Name</string>
+    <string name="hint">Enter Your Name</string>
+    <string name="Gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="transgender">Transgender</string>
+    <string name="uploadphoto">upload your pic here</string>
+    <string name="tick">Tick the language(you should Speak and Write)</string>
+    <string name="hindi">Hindi</string>
+    <string name="eng">English</string>
+    <string name="wing">Select the Wing you want to join</string>
+    <string name="sub">submit</string>
+</resources>

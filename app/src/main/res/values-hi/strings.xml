@@ -1,0 +1,16 @@
+<resources>
+   <string name="app_name">CSE224CA3</string>
+   <string name="Header">NCC पंजीकरण फॉर्म</string>
+   <string name="name">नाम</string>
+   <string name="hint">अपना नाम दर्ज करें</string>
+   <string name="Gender">लिंग</string>
+   <string name="male">पुरुष</string>
+   <string name="female">पुरुष</string>
+   <string name="transgender">ट्रांसजेंडर</string>
+   <string name="uploadphoto">अपनी तस्वीर यहाँ अपलोड करें</string>
+   <string name="tick">भाषा पर टिक करें (आपको बोलने और लिखने में सक्षम होना चाहिए</string>
+   <string name="hindi">हिंदी</string>
+   <string name="eng">अंग्रेज़ी</string>
+   <string name="wing">उस विंग का चयन करें जिसमें आप शामिल होना चाहते हैं</string>
+   <string name="sub">प्रस्तुत</string>
+</resources>
